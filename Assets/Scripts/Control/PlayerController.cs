@@ -27,6 +27,7 @@ namespace RPG.Control
 
                 if (Input.GetMouseButtonDown(0))
                 {
+                    transform.LookAt(target.transform);
                     GetComponent<Fighter>().Attack(target);
 
                 }
