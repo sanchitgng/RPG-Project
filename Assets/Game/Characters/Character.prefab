@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8633310040205489749}
   - component: {fileID: 8633310040205489748}
   - component: {fileID: 8633310040205489739}
-  - component: {fileID: 4225001521820244989}
   - component: {fileID: 542062004765649344}
   - component: {fileID: 316604595}
   - component: {fileID: 8191035379590610224}
+  - component: {fileID: 2664790096483184325}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -129,19 +129,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4225001521820244989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8633310040205489750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8081de2ed3a39b4aac2f66fc90c1c83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseDistance: 5
 --- !u!114 &542062004765649344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,3 +169,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &2664790096483184325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8633310040205489750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8081de2ed3a39b4aac2f66fc90c1c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 5
+  suspicionTime: 5
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
